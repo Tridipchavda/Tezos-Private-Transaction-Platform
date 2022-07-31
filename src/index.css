@@ -1,0 +1,167 @@
+#root,
+html,
+body {
+  height: 100%;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+  height: 7px;
+  background:rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb{
+  
+  border-radius: 5px;
+  background:  rgb(246, 103, 103);;
+}
+
+.name{
+  color: rgb(200, 42, 42);
+  font-size: 30px;
+  
+}
+.navbar{
+  background-color: rgb(255, 233, 233);
+}
+.sendBox{
+  border: 4px solid rgb(250, 138, 138);;
+  width: 700px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+h1,h2,h3{
+  margin-top: 20px;
+  color: rgb(207, 77, 77);
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+input{
+  margin: 10px 20px;
+  border: 1px solid rgb(255, 215, 208);
+  height: 30px;
+  border-radius: 3px;
+  padding: 10px;
+
+}
+
+.send{
+  margin-top: 30px;
+  font-size: 26px;
+  color:white;
+  font-weight: bolder;
+  color: rgb(233, 82, 82);
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  border:1px solid rgb(233, 82, 82);
+
+}
+.send:hover{
+  color: white;
+  background-color: rgb(233, 82, 82);
+  transition: 0.5s;
+}
+
+.AddName{
+  
+  color:white;
+  color: rgb(233, 82, 82);
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: white;
+  border:1px solid rgb(233, 82, 82);
+}
+
+.AddName:hover{
+  color: white;
+  background-color: rgb(233, 82, 82);
+  transition: 0.5s;
+}
+
+.AddContact{
+  border: 2px solid rgb(250, 138, 138);
+  width: 700px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+.line{
+  margin-top: 50px;
+}
+.contactHeading{
+  margin-left: 10px;
+}
+
+.contacts{
+  border: 2px solid rgb(250, 138, 138);
+  width: 97%;
+  padding: 20px;
+  margin:auto;
+  display: flex;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.card{
+  text-align: left;
+  padding: 10px;
+  width: 200px;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.ReceiveBox{
+  border: 4px solid rgb(250, 138, 138);;
+  width: 700px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top:5%;
+}
+#cKey{
+  margin: 0px 20px;
+  border: 1px solid rgb(255, 215, 208);
+  height: 30px;
+  border-radius: 3px;
+  padding: 10px;
+}
+.pending{
+  margin-top: 10px;
+  padding: 10px;
+}
+.pending h2{
+  margin-left: 10px;
+}
+.noPending{
+  margin-left: 30px;
+}
+table{
+  width: 80%;
+  margin: 20px auto;
+  
+}
+.entries,th, td{
+  padding: 2px 20px;
+  font-size: 20px;
+  border-top:2px solid rgb(207, 77, 77);
+  text-align: center;
+  overflow: auto;
+}
+th,td{
+  max-width: 300px;
+}
+
+tr:hover{
+  background-color: rgb(255, 215, 208);
+  transition: 0.6s;
+}
+
+.pointer{
+  cursor:pointer;
+}
