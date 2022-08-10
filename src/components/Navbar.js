@@ -59,7 +59,7 @@ const Navbar = () => {
       <div className="container py-1">
       <div className="d-flex">
           
-          <button onClick={onconnectwallet} className="btn btn-outline-danger">
+          <button onClick={onconnectwallet} className="btn">
             {account !=="" ? account : "Connect Wallet"}
           </button>
         </div>

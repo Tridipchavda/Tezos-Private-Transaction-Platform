@@ -1,0 +1,108 @@
+:root {
+    --primary-color: #4C5870;
+    --box-background-color: #F9F7F7;
+    --background-color: #FFFFFF;
+    --main-font: 'Cantarell', sans-serif;
+    --on-focus: #5e8bcf;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.outer {
+    width: 40%;
+    height: 60%;
+    background-color: var(--box-background-color);
+    font-family: var(--main-font);
+
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.payment-type {
+    height: 14%;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instant,
+.normal {
+    width: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 2%;
+}
+
+.instant {
+    width: 50%;
+}
+
+.instant:hover {
+    box-shadow: 0px 3px gray;
+    cursor: default;
+}
+
+.normal {
+    background-color: var(--background-color);
+}
+
+.normal:hover {
+    box-shadow: 0px 3px gray;
+    cursor: default;
+}
+
+form {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 60%;
+    height: 14%;
+    margin: 15px;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+
+input:disabled {
+    cursor: not-allowed;
+}
+
+input:focus {
+    border: 3px solid var(--on-focus);
+    outline: none;
+}
+
+.send_tez_button {
+    font-size: 1.5vw;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+    height: 14%;
+    width: 60%;
+    margin: 15px;
+    background: var(--primary-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0px 0px 2px black;
+}
+
+.send_tez_button:hover {
+    box-shadow: 0px 0px 4px var(--primary_color);
+}

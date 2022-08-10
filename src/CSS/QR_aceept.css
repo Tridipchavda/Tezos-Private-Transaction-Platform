@@ -1,0 +1,161 @@
+
+        .main_div_for_QR_accept {
+            height: 100vh;
+            width: 100vw;
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .portion2_QR_accept{
+            height:90%;
+            width:100%;
+           
+
+        }
+        .portion2_active_area01{
+               height:15%;
+               width:100%;
+              
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               flex-direction: row;
+        }
+        
+        .active_area01_01{
+            height:100%;
+            width:30%;
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .active_area01_01 p{
+            font-size:2vw;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            color:var(--denim_color);
+            font-family:'Cantarell';
+            word-spacing: 2px;
+        }
+        .active_area01_02{
+            height:100%;
+            width:70%;
+           
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right:3%;
+        }
+        
+        .active_area01_02 img{
+            height:auto;
+            width:3vw;
+            
+        }
+        .portion2_active_area02{
+               height:85%;
+               width:100%;
+              
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               flex-direction: column;
+        }
+        .final_QR_block{
+              height:70%;
+              width:30%;
+             
+              border-radius: 7px;
+              display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .QR_main_segment{
+            height:80%;
+            width:70%;
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            border-radius: inherit;
+        }
+        .top_left{
+            border-top-left-radius:15px;
+            
+        }
+        .top_left_01{
+            height:60%;
+            width:60%;
+           
+            border-left:5px solid var(--denim_color);
+            border-top:5px solid var(--denim_color);
+            border-top-left-radius: 10px;
+        }
+        
+        .top_right{
+            border-top-right-radius:15px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .top_right_01{
+            height:60%;
+            width:60%;
+            
+            border-right:5px solid var(--denim_color);
+            border-top:5px  solid var(--denim_color);
+            border-top-right-radius: 10px;
+        }
+        .bottom_left{
+            border-bottom-left-radius:15px;
+            display:flex;
+            align-items: flex-end;
+        }
+        .bottom_left_01{
+            height:60%;
+            width:60%;
+            
+            border-left:5px  solid var(--denim_color);
+            border-bottom:5px  solid var(--denim_color);
+            border-bottom-left-radius: 10px;
+        }
+        .bottom_right{
+            border-bottom-right-radius:15px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+        }
+        .bottom_right_01{
+            height:60%;
+            width:60%;
+            
+            border-right:5px  solid var(--denim_color);
+            border-bottom:5px solid var(--denim_color);
+            border-bottom-right-radius: 10px;
+        }
+        .common_block{
+            height:50%;
+            width:50%;
+            background:rebeccapurple;
+        }
+        .text_for_QR{
+            height:10%;
+            width:30%;
+           
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: inherit;
+           
+        }
+     
+        .text_for_QR p{
+            max-width:50%;
+            text-align-last: center;
+            font-size:1.4vw;
+            text-transform: capitalize;
+            color:var(--denim_color);
+        }
