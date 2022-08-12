@@ -2,6 +2,7 @@
   "name": "wad-workshop-dapp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Tridipchavda.github.io/Tezos-Private-Transaction-Platform",
   "proxy": "http://localhost:3000",
   "dependencies": {
     "@taquito/beacon-wallet": "^12.1.1",
@@ -21,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
