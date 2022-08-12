@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Tezos-Private-Transaction-Platform/static/css/main.bbe05326.chunk.css",
+    "main.js": "/Tezos-Private-Transaction-Platform/static/js/main.d978ff2b.chunk.js",
+    "main.js.map": "/Tezos-Private-Transaction-Platform/static/js/main.d978ff2b.chunk.js.map",
+    "runtime-main.js": "/Tezos-Private-Transaction-Platform/static/js/runtime-main.71b566a4.js",
+    "runtime-main.js.map": "/Tezos-Private-Transaction-Platform/static/js/runtime-main.71b566a4.js.map",
+    "static/js/2.1ba80ba6.chunk.js": "/Tezos-Private-Transaction-Platform/static/js/2.1ba80ba6.chunk.js",
+    "static/js/2.1ba80ba6.chunk.js.map": "/Tezos-Private-Transaction-Platform/static/js/2.1ba80ba6.chunk.js.map",
+    "index.html": "/Tezos-Private-Transaction-Platform/index.html",
+    "static/css/main.bbe05326.chunk.css.map": "/Tezos-Private-Transaction-Platform/static/css/main.bbe05326.chunk.css.map",
+    "static/js/2.1ba80ba6.chunk.js.LICENSE.txt": "/Tezos-Private-Transaction-Platform/static/js/2.1ba80ba6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.71b566a4.js",
+    "static/js/2.1ba80ba6.chunk.js",
+    "static/css/main.bbe05326.chunk.css",
+    "static/js/main.d978ff2b.chunk.js"
+  ]
+}
