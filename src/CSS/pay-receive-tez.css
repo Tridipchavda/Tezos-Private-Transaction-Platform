@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #4C5870;
-    --box-background-color: #F9F7F7;
+    --primary-color: #0F3D3D;
+    --box-background-color: #E3DCC9;
     --background-color: #FFFFFF;
     --main-font: 'Cantarell', sans-serif;
-    --on-focus: #5e8bcf;
+    --on-focus: #c2bcab;
 }
 
 * {
@@ -35,6 +35,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--on-focus);
 }
 
 .instant,
@@ -83,11 +84,6 @@ input {
 
 input:disabled {
     cursor: not-allowed;
-}
-
-input:focus {
-    border: 3px solid var(--on-focus);
-    outline: none;
 }
 
 .send_tez_button {

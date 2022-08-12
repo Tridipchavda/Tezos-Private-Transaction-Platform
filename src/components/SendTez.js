@@ -20,7 +20,6 @@ const SendTez = () => {
     //Changing Modes
     const changeMode = (modeType) => {
         setMode(modeType);
-        alert(modeType);
     }
 
     // Fetching Data of contacts while Loading website
@@ -98,13 +97,13 @@ const SendTez = () => {
                 {mode == "Contract"
                     ?
                     <>
-                        <p class="normal" onClick={() => changeMode("Instant")}>Instant Pay</p>
-                        <p class="instant" onClick={() => changeMode("Contract")}>Pay</p>
+                        <p class="instant" onClick={() => changeMode("Instant")}>Instant Pay</p>
+                        <p class="normal" onClick={() => changeMode("Contract")}>Pay</p>
                     </>
                     :
                     <>
-                        <p class="instant" onClick={() => changeMode("Instant")}>Instant Pay</p>
-                        <p class="normal" onClick={() => changeMode("Contract")}>Pay</p>
+                        <p class="normal" onClick={() => changeMode("Instant")}>Instant Pay</p>
+                        <p class="instant" onClick={() => changeMode("Contract")}>Pay</p>
                     </>
                 }
 

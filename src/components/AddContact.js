@@ -95,9 +95,9 @@ const AddContact = () => {
                         <div className="cont">
                             <form action="" className="input-elements">
                                 <h3>Create New Contact</h3>
-                                <label >Name</label>
+                                {/* <label >Name</label> */}
                                 <input type="text" id="ContactName" placeholder="Name" />
-                                <label >Address</label>
+                                {/* <label >Address</label> */}
                                 <input type="text" id="ContactAddress" name="public-key" placeholder="Public Key" />
                                 <button type="button" onClick={addContact} className="contactBtn">Add Contact</button>
                             </form>

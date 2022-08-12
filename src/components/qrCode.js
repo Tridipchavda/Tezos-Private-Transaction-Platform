@@ -20,7 +20,6 @@ const QRCode = (props) => {
     // Changing Mode when user wants
     const changeMode = (modeType) => {
         setMode(modeType);
-        alert(modeType);
     }
 
     // Sending Amount to Receiver checking Instant/Contract Method
@@ -91,14 +90,14 @@ const QRCode = (props) => {
                     {mode == "Contract"
                         ?
                         <>
-                            <p class="normal" onClick={() => changeMode("Instant")}>Instant Pay</p>
-                            <p class="instant" onClick={() => changeMode("Contract")}>Pay</p>
-                        </>
-                        :
-
-                        <>
                             <p class="instant" onClick={() => changeMode("Instant")}>Instant Pay</p>
                             <p class="normal" onClick={() => changeMode("Contract")}>Pay</p>
+                        </>
+                        :
+                        
+                        <>
+                            <p class="normal" onClick={() => changeMode("Instant")}>Instant Pay</p>
+                            <p class="instant" onClick={() => changeMode("Contract")}>Pay</p>
                         </>
                     }
 
