@@ -2,6 +2,7 @@
   "name": "wad-workshop-dapp",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@taquito/beacon-wallet": "^12.1.1",
     "@taquito/taquito": "^12.1.1",
@@ -9,8 +10,13 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.27.2",
+    "mongoose": "^6.5.0",
+    "qrcode": "^1.5.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-qr-reader": "^3.0.0-beta-1",
+    "react-router-dom": "^6.3.0",
+    "react-script-tag": "^1.1.2",
     "react-scripts": "^4.0.3",
     "web-vitals": "^2.1.4"
   },

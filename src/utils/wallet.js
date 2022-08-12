@@ -1,5 +1,6 @@
 import { BeaconWallet } from "@taquito/beacon-wallet";
 
+// Asking For Wallet and Setting up Wallet
 export const wallet = new BeaconWallet({
     name:"Tez Pay",
     preferredNetwork: "jakartanet",

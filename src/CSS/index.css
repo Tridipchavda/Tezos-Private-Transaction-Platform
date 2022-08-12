@@ -1,0 +1,269 @@
+:root {
+    --denim_color: #0F3D3D;
+    --font_color: black;
+    --sucess:#4bb543;
+    --fail:#fc1b18;
+    --backgound: #E3DCC9;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Cantarell';
+    overflow-x: hidden;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_div {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+
+.center_div01 {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QR_div {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.QR_final {
+    height: 60%;
+    width: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2%;
+}
+
+.QR_final p {
+    font-size: 1vw;
+    max-width: 10vw;
+    padding-top: 7%;
+    text-transform: capitalize;
+    text-align-last: center;
+    color: var(--denim_color);
+    font-family: 'Cantarell';
+
+}
+
+.button_pay_accept {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QR_final img {
+    width: 10vw;
+    height: auto;
+}
+
+.temp_line {
+    height: 80%;
+    width: 0.65%;
+    border-radius: 25px;
+    background: var(--denim_color);
+}
+
+.button_div_final {
+    height: 100%;
+    width: 97.35%;
+    margin-left: 2%;
+    display: flex;
+    align-items: center;
+
+}
+
+.button_div_final01 {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.common_button {
+    font-size: 1.3vw;
+    font-family: 'Cantarell';
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    padding: 2% 1% 2% 1%;
+    border-radius: 5px;
+    background: var(--denim_color);
+    border: none;
+
+}
+
+.sp01 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+}
+.sp01 img{
+    filter: brightness(10);
+    
+}
+
+
+
+.common_button img {
+    height: 100%;
+    width: 60%;
+    padding-left: 2%;
+}
+
+.common_button p {
+    padding-left: 7%;
+    color: white;
+}
+
+.center_div02 {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_div02_temp {
+    height: 100%;
+    width: 100%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.transaction_history_title {
+    margin-left: 7%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.transaction_history_title p {
+    font-size: 1.7vw;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family: 'Cantarell';
+    color: var(--font_color);
+    font-weight: bold;
+}
+
+.history_data {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.history_data01 {
+    height: 100%;
+    padding: 1% 1% 2% 1%;
+    width: 60%;
+    background: #e5e4e255;
+    border-radius: 5px;
+    border-radius: 7px;
+}
+
+.common_history {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 1%;
+}
+
+.col1 {
+    width: 45%;
+}
+
+.col1 p:nth-child(1) {
+    font-size: 1.5vw;
+}
+
+.col1 p:nth-child(2) {
+    font-size: 0.8vw;
+    line-height: 0.5;
+    text-overflow: ellipsis;
+    max-width: 20%;
+}
+
+.col2 {
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 2%;
+
+}
+
+.col2 p:nth-child(1) {
+    font-size: 1.3vw;
+}
+
+.col2 p:nth-child(2) {
+    font-size: 0.8vw;
+}
+
+.col3 {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col3 img{
+    height:auto;
+    width:2vw;
+  }
+
+  .history01 .col2 P:nth-child(1){
+   color:var(--sucess);
+  }
+
+  .history02 .col2 p:nth-child(1){
+color:var(--fail);
+  }
+
+  .history03 .col2 p:nth-child(1){
+color:var(--fail);
+  }
+  
+  .history04 .col2 p:nth-child(1){
+    color:var(--sucess);
+  }

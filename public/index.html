@@ -5,10 +5,19 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Web site created using create-react-app" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap -->
     <link
@@ -19,9 +28,37 @@
     />
 
     <title>Tez Pay</title>
+    <style>
+      @import url("../src/CSS/index.css");
+      @import url("../src/CSS/nav.css");
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
+  <script>
+    const instant = document.querySelector('.instant');
+    const normal = document.querySelector('.normal');
+    const public_key = document.querySelector('#public_key');
+
+    document.querySelector('.instant').addEventListener('click', () => {
+        document.querySelector('.instant').style.backgroundColor = "#FFFFFF";
+        document.querySelector('.normal').style.backgroundColor = "#F9F7F7";
+        public_key.disabled = true;
+    })
+    document.querySelector('.normal').addEventListener('click', () => {
+        document.querySelector('.normal').style.backgroundColor = "#FFFFFF";
+        document.querySelector('.instant').style.backgroundColor = "#F9F7F7";
+        public_key.disabled = false;
+    })
+
+    const inputDiv = document.querySelector('.add-new-contact');
+    const addContact = document.getElementById('addContact');
+    const cancel = document.getElementById('cancel');
+
+    
+  </script>
+  <script src="/connect/src/components/JS/add-contact.js"></script>
 </html>
+
