@@ -1,3 +1,9 @@
+@import url("./CSS/add-to-contact.css");
+@import url("./CSS/index.css");
+@import url("./CSS/nav.css");
+@import url("./CSS/pay-receive-tez.css");
+@import url("./CSS/QR_aceept.css");
+
 #root,
 html,
 body {
@@ -12,16 +18,18 @@ body {
 ::-webkit-scrollbar-thumb{
   
   border-radius: 5px;
-  background:  rgb(246, 103, 103);;
+  background:  rgb(255, 176, 176);;
 }
-
+.btn{
+  color: aliceblue;
+  border: 2px solid white;
+}
 .name{
-  color: rgb(200, 42, 42);
+  color: rgb(255, 255, 255);
   font-size: 30px;
-  
 }
 .navbar{
-  background-color: rgb(255, 233, 233);
+  background-color: rgb(114, 62, 89);
 }
 .sendBox{
   border: 4px solid rgb(250, 138, 138);;
@@ -30,11 +38,59 @@ body {
   border-radius: 10px;
   margin-top: 5%;
 }
+.common_button{
+  background-color: rgb(199, 61, 96);
+  align-items: center;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.temp_line{
+  background-color: rgb(114, 62, 89);
+}
+.send_tez_button{
+  background-color: rgb(134, 71, 103);
+}
+.contact{
+  background-color: rgb(251, 163, 63);
+}
+.cont{
+  border: 2px solid rgb(97, 99, 131);
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.contactBtn{
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color:  rgb(228, 157, 210);
+  margin: 10px 0px;
+}
+.common_history{
+  background-color: rgb(160, 65, 114);
+  color: white;
+}
+.history_data01{
+  background-color: rgb(179, 159, 175);
+}
+.outer{
+  background-color: rgb(211, 178, 193);
+  border-radius: 10px;
+}
+.QRContainer{
+  width: 500px;
+  padding: 20px;
+  background-color: rgb(211, 178, 193);
+}
 h1,h2,h3{
   margin-top: 20px;
   color: rgb(207, 77, 77);
 }
 .form{
+ 
   display: flex;
   flex-direction: column;
   width: 50%;
@@ -164,4 +220,21 @@ tr:hover{
 
 .pointer{
   cursor:pointer;
+}
+
+.menuBtn{
+  width: 200px;
+  height: 200px;
+  margin-top: 30px;
+  margin-left: 20px;
+  background-color: rgb(255, 215, 208);
+  cursor: pointer;
+  border-radius:10px;
+  font-size: 30px;
+  
+}
+
+.menuBtn a{
+  color: rgb(200, 42, 42);
+  text-decoration: none;
 }
